@@ -1,4 +1,4 @@
-### Day6: Learning Note of Shallow neural networks (Video 5-8)
+### Day7: Learning Note of Shallow neural networks (Video 5-8)
 > 备注：今天的内容主要包括：对向量化的解释、激活函数、
 
 #### 对向量化的解释
