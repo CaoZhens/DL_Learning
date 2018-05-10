@@ -7,7 +7,7 @@
 2. 讨论神经网络的层数时，一般不考虑输入层，只考虑隐藏层和输出层
 
 符号约定，以下图神经网络为例：  
-<img src="https://github.com/CaoZhens/DL_Learning/tree/master/pic/deep_nn_picture.png" alt="" data-canonical-src="" width="400" height="200" />  
+<img src="https://github.com/CaoZhens/DL_Learning/blob/master/pic/deep_nn_picture.png" alt="" data-canonical-src="" width="400" height="200" />  
 
 层数$L=4$  
 第一个隐藏层$n^{[1]}=5$,表示有5个隐藏神经元  
