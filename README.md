@@ -9,3 +9,4 @@
 [Day8-learning notes](dl_note_day8.md)  
 [Day9-learning notes](dl_note_day9.md)  
 [Day10-learning notes](dl_note_day10.md)  
+[Day11-learning notes](dl_note_day11.md)  
