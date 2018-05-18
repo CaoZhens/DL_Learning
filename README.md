@@ -10,3 +10,6 @@
 [Day9-learning notes](dl_note_day9.md)  
 [Day10-learning notes](dl_note_day10.md)  
 [Day11-learning notes](dl_note_day11.md)  
+
+第二部分  
+[part2-Day1-learning notes](dl_note_part2_day1.md)  
