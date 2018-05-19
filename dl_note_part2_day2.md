@@ -3,20 +3,20 @@
 
 ## 逻辑回归中的正则化
 **L2正则化**  
-$$J(\mathbf{w},b) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}||\mathbf{w} ||_2^2$$
+$$J(\mathbf{w},b) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\|\mathbf{w}\|_2^2$$
 其中：  
-$$||\mathbf{w} ||_2^2 = \sum_{j=1}^{n_x}w_j^2 = \mathbf{w}^T\mathbf{w}$$
+$$\|\mathbf{w}\|_2^2 = \sum_{j=1}^{n_x}w_j^2 = \mathbf{w}^T\mathbf{w}$$
 **L1正则化**  
-$$J(\mathbf{w},b) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{m}||\mathbf{w} ||_1$$
+$$J(\mathbf{w},b) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{m}\|\mathbf{w}\|_1$$
 其中：  
-$$||\mathbf{w} ||_1 = \sum_{j=1}^{n_x}|w_j|$$
+$$\|\mathbf{w}\|_1 = \sum_{j=1}^{n_x}|w_j|$$
 - $\lambda$是正则化参数，是一个需要调整的超参数 
 - 为了方便写代码，在Python中，$\lambda$是一个保留字段，编写代码时，我们删掉a，写成lambd，以免与Python中的保留字段冲突
 
 ## 在神经网络中应用L2正则化
-$$J(\mathbf{W}^{[1]}, b^{[1]},\mathbf{W}^{[2]}, b^{[2]},...,\mathbf{W}^{[L]}, b^{[L]}) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}||\mathbf{W}^{[l]} ||_F^2$$
+$$J(\mathbf{W}^{[1]}, b^{[1]},\mathbf{W}^{[2]}, b^{[2]},...,\mathbf{W}^{[L]}, b^{[L]}) = \frac1m \sum_{i=1}^{m}{L(\hat{y}^{(i)}, y^{(i)})} + \frac{\lambda}{2m}\sum_{l=1}^{L}\|\mathbf{W}^{[l]}\|_F^2$$
 其中：  
-$$||\mathbf{W}^{[l]} ||_F^2 = \sum_{i=1}^{n^{[l]}}\sum_{j=1}^{n^{[l-1]}}(W_{ij})^2$$
+$$\|\mathbf{W}^{[l]}\|_F^2 = \sum_{i=1}^{n^{[l]}}\sum_{j=1}^{n^{[l-1]}}(W_{ij})^2$$
 *备注：视频中的这个公式应该写错了！此处更正*  
 **该矩阵范数被称作弗罗贝尼乌斯范数（Frobenius Norm），用下标F标注**  
 
