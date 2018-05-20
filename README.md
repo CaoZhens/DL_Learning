@@ -11,6 +11,7 @@
 [Day10-learning notes](dl_note_day10.md)  
 [Day11-learning notes](dl_note_day11.md)  
 
-???
+Part 2
 [part2-Day1-learning notes](dl_note_part2_day1.md)  
 [part2-Day2-learning notes](dl_note_part2_day2.md)  
+[part2-Day3-learning notes](dl_note_part2_day3.md)  
