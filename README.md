@@ -16,3 +16,4 @@ Part 2
 [part2-Day2-learning notes](dl_note_part2_day2.md)  
 [part2-Day3-learning notes](dl_note_part2_day3.md)  
 [part2-Day4-learning notes](dl_note_part2_day4.md)  
+[part2-Day5-learning notes](dl_note_part2_day5.md)  
