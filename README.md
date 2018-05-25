@@ -19,3 +19,4 @@ Part 2
 [part2-Day5-learning notes](dl_note_part2_day5.md)  
 [part2-Day6-learning notes](dl_note_part2_day6.md)  
 [part2-Day7-learning notes](dl_note_part2_day7.md)  
+[part2-Day8-learning notes](dl_note_part2_day8.md)  
