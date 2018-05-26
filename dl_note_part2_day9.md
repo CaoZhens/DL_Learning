@@ -1,7 +1,11 @@
 # Day9: 超参数调试、Batch正则化和程序框架 Video5-8
 > 今天的主要学习内容包括：Batch归一化用于神经网络；深入理解Batch归一化； 
 ## batch归一化在神经网络中的使用
-$$\mathbf{z}^{[1]} = W^{[1]}X + b^{[1]}, {\mathbf{z}}_{norm}^{[1]} = \frac{\mathbf{z}^{[1]} - \mu}{\sqrt{\sigma^2 + \varepsilon}}, \tilde{\mathbf{z}}^{[1]} = \gamma z_{norm}^{(i)} + \beta$$
+$$\mathbf{z}^{[1]} = W^{[1]}X + b^{[1]}$$
+
+$${\mathbf{z}}_{norm}^{[1]} = \frac{\mathbf{z}^{[1]} - \mu}{\sqrt{\sigma^2 + \varepsilon}}$$
+
+$$\tilde{\mathbf{z}}^{[1]} = \gamma z_{norm}^{(i)} + \beta$$
 
 Batch归一化是发生在计算$z$和$a$之间的。直观理解就是：与其应用没有归一化的$z$值，不如用归一过的$\tilde{z}$
 
